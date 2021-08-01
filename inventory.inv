@@ -18,8 +18,8 @@
 # Ex 2: A collection of hosts belonging to the 'webservers' group
 
  [webservers]
-172.31.37.152
-172.31.43.47
+172.31.37.152 ansible_user=ec2-user
+172.31.43.47 ansible_user=ec2-user
 ## alpha.example.org
 ## beta.example.org
 ## 192.168.1.100
