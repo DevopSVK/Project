@@ -12,7 +12,7 @@
   - name: pull edureka image
     command: docker pull devopsedu/webapp
   - name: run & port mapping
-    command: docker run --name E4 -d -p 8181:80 devopsedu/webapp
+    command: docker run --name E1 -d -p 8181:80 devopsedu/webapp
     command: docker run --name N1 -d -p 8282:80 nginx
 
 
